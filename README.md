@@ -61,24 +61,10 @@ mosquitto_passwd -c /etc/mosquitto/passwd_file iot_test_v1
 - docker run -it -v /home:/home -p 8000:8000 --network "host" --name ubuntu_port_testing_1 --security-opt seccomp:unconfined ubuntu:latest
 
 
-
-## Error : Javascript debug for fastAPI websocket
-
-> few bugs if working with jsquery:
-'''Use the @$.ajax for “post“ api call
-   // POST Request to server to set LED state.
-   function postUpdate(payload){
-       $.ajax({
-           url:"/led",
-           type:"POST",
-           data: JSON.stringify(payload),
-           contentType:"application/json",
-           dataType:"json",
-           success: function(serverResponse, status) {
-           console.log(payload)
-           console.log("the below one is server response")
-           console.log(serverResponse)
-           updateControls(serverResponse);                                    // (5)
-       }
-   })
-   }
+## Reference 
+* https://pythonrepo.com/repo/sabuhish-fastapi-mqtt-python-fastapi-utilities
+* https://github.com/sabuhish/fastapi-mqtt/blob/master/docs/getting-started.md
+* https://fastapi.tiangolo.com/tutorial/
+* Home automation Info videos :  https://www.youtube.com/channel/UC75HTMhqVZs0sPOMTMQqI9g
+## Additional details:
+    https://docs.google.com/document/d/1t5qNqFk1zkpqU8hp0CfM5sPngBX_D-aD8vrElaOjCCc/edit
