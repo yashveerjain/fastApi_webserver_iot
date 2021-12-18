@@ -1,2 +1,5 @@
 fastapi
 fastapi-mqtt
+jinja2 
+uvicorn[standard]
+paho-mqtt
