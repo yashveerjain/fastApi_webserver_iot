@@ -96,4 +96,4 @@ def subscribe(client, mid, qos, properties):
     print("subscribed", client, mid, qos, properties)
 
 if __name__=="__main__":
-    uvicorn.run("fmqtt_api_iot_v1:app",reload=True)
+    uvicorn.run("fmqtt_api_iot_v1:app",reload=True,host="192.168.29.165")
