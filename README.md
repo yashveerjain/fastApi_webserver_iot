@@ -11,6 +11,9 @@ several communication protocols have been implemented like RestAPI, WebSocket an
 * ubuntu packages:
     - apt-get install -y fish python3-pip curl
     - apt install net-tools
+    <!-- - apt-get install sqlitebrowser 
+    (sqlitebrowser is https://sqlitebrowser.org/) -->
+
 
 ### for using localtunnel ( a proxy for webserver ) [reference](https://localtunnel.github.io/www/)
 * linux command
@@ -60,6 +63,10 @@ mosquitto_passwd -c /etc/mosquitto/passwd_file iot_test_v1
 
 - docker run -it -v /home:/home -p 8000:8000 --network "host" --name ubuntu_port_testing_1 --security-opt seccomp:unconfined ubuntu:latest
 
+
+## TODO
+* made more secure backend (fastAPI)
+* add video streaming platform [reference](https://stackoverflow.com/questions/65971081/stream-video-to-web-browser-with-fastapi)
 
 ## Reference 
 * https://pythonrepo.com/repo/sabuhish-fastapi-mqtt-python-fastapi-utilities

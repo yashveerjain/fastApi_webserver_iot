@@ -3,3 +3,7 @@ fastapi-mqtt
 jinja2 
 uvicorn[standard]
 paho-mqtt
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+sqlalchemy
