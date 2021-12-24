@@ -29,7 +29,7 @@ def create_device(deviceCreate : schemas.DeviceCreate,db : Session=Depends(get_d
     db_device = crud.get_device_by_topic(db,deviceCreate.topic_name)
     # print(db_device)
     if db_device:
-        raise HTTPException(status_code=400, detail="device already present")
+        raise HTTPException(status_code=400, detail=f"device with topic name {deviceCreate.topic_name}already present")
     return crud.create_device(db,deviceCreate)
 
 @router.get("/device/{device_id}",response_model=schemas.Device)

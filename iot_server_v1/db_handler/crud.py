@@ -45,10 +45,7 @@ def get_device_by_topic(db: Session, device_topic_name: str):
 
 def get_devices(db: Session):
     devices = db.query(models.Device).all()
-    D = []
-    for device in devices:    
-        D.append(device)
-    return D
+    return devices
 
 
 ##update
@@ -67,12 +64,12 @@ def delete_device(db: Session,device_id:int):
 
 def delele_all_devices(db:Session):
     devices = db.query(models.Device).all()
-    D = []
+    # D = []
     for device in devices:    
         db.delete(device)
-        D.append(device)
+        # D.append(device)
     db.commit()
-    return D
+    return devices
 
 def delete_user(db:Session,user_id: int):
     user = db.query(models.User).filter(models.User.id==user_id).first()

@@ -25,7 +25,8 @@ several communication protocols have been implemented like RestAPI, WebSocket an
     - apt-get install -y fish python3-pip curl
     - apt install net-tools
     <!-- - apt-get install sqlitebrowser 
-    (sqlitebrowser is https://sqlitebrowser.org/) -->
+    (sqlitebrowser is https://sqlitebrowser.org/)
+    (online sqlite reader : https://inloop.github.io/sqlite-viewer/) -->
 
 
 ### for using localtunnel ( a proxy for webserver ) [reference](https://localtunnel.github.io/www/)
