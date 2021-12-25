@@ -8,6 +8,10 @@ import uvicorn
 from db_handler import universal_apis,admin_apis
 from routers import authorization
 from internal import admin
+# import logging
+
+# logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+# logging.warning('This will get logged to a file')
 
 app = FastAPI()
 

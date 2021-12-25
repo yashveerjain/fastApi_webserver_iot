@@ -20,6 +20,7 @@ class Device(Base):
     name = Column(String)
     topic_name = Column(String,unique=True)
     status = Column(Boolean,default=False)
+    gpio_pin = Column(Integer)
 
     ## temperature data etc.
     extra_details = Column(Float)

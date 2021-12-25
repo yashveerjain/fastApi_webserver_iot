@@ -9,7 +9,7 @@ class UserBase(BaseModel):
 
 class UserCreate(UserBase):
     password : str
-    isadmin : Optional[bool] = False
+    isadmin : Optional[bool]
 
 class User(UserBase):
     id : int
@@ -23,6 +23,7 @@ class User(UserBase):
 class DeviceBase(BaseModel):
     name: str
     topic_name: str
+    gpio_pin : int
     
 class DeviceCreate(DeviceBase):
     pass
