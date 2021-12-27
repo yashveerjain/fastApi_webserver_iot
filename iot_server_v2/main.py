@@ -6,7 +6,7 @@ from fastapi import FastAPI,Depends,HTTPException
 import uvicorn
 
 from db_handler import universal_apis,admin_apis
-from routers import authorization
+from routers import authorization,camera_feed
 from internal import admin
 # import logging
 
@@ -19,6 +19,7 @@ app.include_router(universal_apis.router)
 app.include_router(admin_apis.router)
 app.include_router(authorization.router)
 app.include_router(admin.router)
+app.include_router(camera_feed.router)
 
 @app.get("/")
 async def root():
