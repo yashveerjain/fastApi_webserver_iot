@@ -33,7 +33,7 @@ def read_user(user_id:int,db : Session=Depends(get_db)):
         raise HTTPException(status_code=404, detail=f"User {user_id} not found")
     return db_user
 
-@router.get("/user/delete/{user_id}")
+@router.delete("/user/delete/{user_id}",response_model=schemas.User)
 def delete_user(user_id:int,db:Session=Depends(get_db)):
     db_user = crud.get_user(db,user_id=user_id)
     if not db_user:
@@ -41,14 +41,14 @@ def delete_user(user_id:int,db:Session=Depends(get_db)):
     return crud.delete_user(db,user_id)
 
 
-@router.get("/device/delete/{device_id}",response_model=schemas.Device)
+@router.delete("/device/delete/{device_id}",response_model=schemas.Device)
 def delete_device(device_id : int, db : Session=Depends(get_db)):
     db_device = crud.get_device(db,device_id)
     if not db_device:
         raise HTTPException(status_code=404, detail=f"device {device_id} not found")
     return crud.delete_device(db,device_id=device_id)
     
-@router.get("/devices/delete",response_model= List[schemas.Device])
+@router.delete("/devices/delete",response_model= List[schemas.Device])
 def delete_devices(db : Session=Depends(get_db)):    
     devices = crud.delele_all_devices(db)
     if len(devices)==0:

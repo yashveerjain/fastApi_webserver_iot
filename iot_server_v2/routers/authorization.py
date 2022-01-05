@@ -26,7 +26,6 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 router = APIRouter()
 
 
-
 def create_access_token(data: dict, expires_delta : Optional[timedelta]):
     to_encode = data.copy()
     if not expires_delta:

@@ -16,6 +16,9 @@ templates = Jinja2Templates(directory="templates")
 router = APIRouter()
 
 class handle_clients:
+    """
+    handle multiple clients for camera streaming from single camera
+    """
     def __init__(self):
         self.request_lists = []
         self.cap = None
