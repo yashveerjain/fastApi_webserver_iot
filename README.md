@@ -22,7 +22,8 @@ several communication protocols have been implemented like RestAPI, WebSocket an
 
 ## dependencies 
 * ubuntu packages:
-    - > apt-get install -y fish python3-pip curl
+    - > apt-get update
+    - > apt-get install -y fish python3-pip curl build-essentials
     - > apt install net-tools
     <!-- - apt-get install sqlitebrowser 
     (sqlitebrowser is https://sqlitebrowser.org/)
@@ -77,8 +78,11 @@ several communication protocols have been implemented like RestAPI, WebSocket an
 
 * for rasbian docker issue: [error_reference](https://askubuntu.com/questions/1263284/apt-update-throws-signature-error-in-ubuntu-20-04-container-on-arm)
 
-- > docker run -it -v /home:/home -p 8000:8000 --network "host" --name ubuntu_port_testing_1 --security-opt seccomp:unconfined ubuntu:latest
+- > docker run -it -v /home:/home -p 8000:8000 --network "host" --name ubuntu_webserver_v2 --device=/dev/video0:/dev/video0 --device=/dev/video1:/dev/video1 --security-opt seccomp:unconfined ubuntu:latest
 
+### Error:
+* ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+    - 
 
 ## Reference 
 * https://pythonrepo.com/repo/sabuhish-fastapi-mqtt-python-fastapi-utilities

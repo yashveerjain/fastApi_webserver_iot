@@ -1,7 +1,6 @@
 # print('__file__={0:<35} | __name__={1:<25} | __package__={2:<25}'.format(__file__,__name__,str(__package__)))
 
-from sqlalchemy.orm import Session, load_only
-from sqlalchemy.sql.functions import mode
+from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 
 from . import models, schemas
@@ -39,7 +38,6 @@ def get_device(db: Session, device_id: int):
     return db.query(models.Device).filter(models.Device.id==device_id).first()
 
 def get_device_by_topic(db: Session, device_topic_name: str):
-
     return db.query(models.Device).filter(models.Device.topic_name==device_topic_name).first()
 
 

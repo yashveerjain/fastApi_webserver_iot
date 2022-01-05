@@ -11,7 +11,7 @@ class User(Base):
     email = Column(String,unique=True,index=True)
     hashed_password = Column(String)
 
-    isadmin = Column(Boolean,default=True)
+    isadmin = Column(Boolean,default=False)
 
 class Device(Base):
     __tablename__= "device"

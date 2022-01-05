@@ -26,7 +26,6 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 router = APIRouter()
 
 
-
 def create_access_token(data: dict, expires_delta : Optional[timedelta]):
     to_encode = data.copy()
     if not expires_delta:
@@ -78,7 +77,7 @@ def authenticate_user(email:str,password : str,db : Session):
 
 
 class RoleChecker:
-    
+    ## check if the current user is admin
     def __call__(self, user: schemas.User = Depends(get_current_active_user)):
         if not user.isadmin:
             # logger.debug(f"User with role {user.role} not in {self.allowed_roles}")

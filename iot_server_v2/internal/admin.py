@@ -10,7 +10,8 @@ router = APIRouter()
 
 
 @router.post("/admin/user",response_model=schemas.User)
-def create_user(user : schemas.UserCreate,db : Session=Depends(get_db)):
+
+def create_user(user : schemas.AdminUserCreate,db : Session=Depends(get_db)):
     db_user = crud.get_user(db, user_id=1)
     if db_user:
         raise HTTPException(status_code=400, detail="Email already registered and there is admin")

@@ -1,5 +1,0 @@
-# using python lib
-pip install websocket-client
-
-# ref : 
-https://pypi.org/project/websocket-client/
