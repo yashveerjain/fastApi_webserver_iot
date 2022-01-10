@@ -8,4 +8,8 @@ python-jose[cryptography]
 passlib[bcrypt]
 sqlalchemy
 opencv-python
-# imutils
+flask
+flask-ask
+werkzeug==0.16.0
+cryptography==3.3
+pyOpenSSL==21.0.0

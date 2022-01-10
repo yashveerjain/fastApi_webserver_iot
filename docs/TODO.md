@@ -7,3 +7,4 @@
 - [ ] adding alexa skill [reference1](https://pythonprogramming.net/intro-alexa-skill-flask-ask-python-tutorial/) and [reference2](https://www.youtube.com/watch?v=11srfAQkaBg)
 - [ ] implementation of multiple mqtt subscription and publication
 - [ ] enhance security using the firewall and ssl for more details refer [this] (docs/os_config.md)
+- [ ] add compile form of code to protect the code base when deploying using [nutika](https://nuitka.net/doc/download.html)

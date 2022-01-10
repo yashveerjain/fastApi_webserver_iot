@@ -26,18 +26,7 @@ maintain free TLS/SSL certificates. This process is simplified and
 automated with the help of a software client called Certbot. Certbot
 attempts to automate almost all the required steps and needs only minor
 manual effort.
-* We will install Certbot from an active Ubuntu software repository,
-which tends to be the most updated version, with the following command:
-> add-apt-repository ppa:certbot/certbot
-
-* Press Enter to accept the prompt, and the installation will progress.
-Then we will install Certbot’s Apache package with the apt package
-manager.
-
-* We will now obtain an SSL certificate for our domain name with the
-following command:
-- > certbot --apache -d in24hrs.xyz -d www.in24hrs.xyz
-    - This command runs Certbot with an Apache plugin. The -d parameter
-specifies the domain names for which we are requesting SSL certificates.
-Since we are running this command for the very first time, it may prompt
-for an email address.
+* [reference](https://certbot.eff.org/instructions?ws=other&os=ubuntufocal)
+* commands to run:
+* > apt install snapd
+* > 
