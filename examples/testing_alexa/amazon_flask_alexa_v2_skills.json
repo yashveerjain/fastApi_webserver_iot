@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "raspberry pi",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LightIntent",
+                    "slots": [
+                        {
+                            "name": "st",
+                            "type": "status"
+                        }
+                    ],
+                    "samples": [
+                        "lights",
+                        "light",
+                        "light {st}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "status",
+                    "values": [
+                        {
+                            "id": "on",
+                            "name": {
+                                "value": "off",
+                                "synonyms": [
+                                    "switch on",
+                                    "enable",
+                                    "power on",
+                                    "activate",
+                                    "turn on"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "off",
+                            "name": {
+                                "value": "on",
+                                "synonyms": [
+                                    "switch off",
+                                    "disactivate",
+                                    "turn off",
+                                    "disable",
+                                    "turn off"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -65,7 +65,7 @@ def get_current_active_user(email : str =Depends(verify_token),db: Session=Depen
 
 
 def authenticate_user(email:str,password : str,db : Session):
-    print(db)
+    # print(db)
     user = crud.get_user_by_email(db,email)
     if not user:
         return False
@@ -105,7 +105,7 @@ async def login_user(form_data: OAuth2PasswordRequestForm = Depends(),db : Sessi
 
     And it should have an access_token, with a string containing our access token.
     """
-    print(token_model)
+    # print(token_model)
     return token_model
 
 

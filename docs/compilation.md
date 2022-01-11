@@ -18,7 +18,7 @@
     - in command there is `temp_dir2` in multiple arguments, this is the dirname where you can store the compiled script in one place, change the name according to you desire.
 - in the app dir (eg: iot_server_v3) delete the __init__.py file if present.
     - eg : iot_server_v3/__init__.py if present remove it.
-    - only remove this one file **do not remove** other __init__.py present in sub directories.
+    - only remove this one file, **do not remove** other __init__.py present in sub directories.
 
 
 

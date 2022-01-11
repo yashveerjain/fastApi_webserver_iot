@@ -30,6 +30,7 @@
 - > apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 - > apt-get update
 - > apt-get install mosquitto
+- > apt-get --yes install mosquitto-client
 
 ### Starting mosquitto broker
 * > service mosquitto start
@@ -46,6 +47,8 @@
 * command used to create the user name and password: 
     - > mosquitto_passwd -c /etc/mosquitto/passwd_file iot_test_v1
     - here `iot_test_v1` is username
+* copy the `examples/mosquitto_files/mosquitto.conf` file to `/etc/mosquitto/`    
+* copy the `examples/mosquitto_files/passwd_file` to `/etc/mosquitto/`.
 
 
 ---

@@ -1,10 +1,11 @@
+import json
+import logging
 from typing import List
 
 from sqlalchemy.sql.functions import user
 
 from fastapi import APIRouter,Depends,HTTPException
 from sqlalchemy.orm import Session
-
 
 from . import crud, models, schemas
 from .dataset import engine
@@ -41,9 +42,19 @@ def get_device(device_id: int,db : Session=Depends(get_db) ):
 
 @router.put("/device/",response_model=schemas.Device)
 def update_device_status(device_details: schemas.DeviceStatus,db : Session=Depends(get_db) ):
+    from mqtt_routers import comm
     db_device = crud.get_device(db,device_details.id)
     if not db_device:
         raise HTTPException(status_code=400, detail="device not found")
+    
+    topic = db_device.topic_name
+    mess = json.dumps({"status" : int(device_details.status)})
+    result = comm.publish(topic,mess)
+    logging.debug(result)
+    
+    if result["result"]==False:
+        print("unable to update status")
+
     db_device = crud.update_device_status(db,device_details.id,status=device_details.status)
     return db_device
 
