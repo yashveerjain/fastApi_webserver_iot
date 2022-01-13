@@ -6,6 +6,9 @@
 ## TODO :
 * [TODO List](docs/TODO.md)
 
+## for other details
+* visit [docs](docs/) it contains all the extra information from installation to compilation and internal configurations.
+
 ## > examples 
 * this directory contains starting point for fastapi and mqtt
 ---
@@ -33,9 +36,18 @@ several communication protocols have been implemented like RestAPI.
 ---
 
 ## > iot_server_v2
-This is the updated version of iot_server_v2, and contains:
+This is the updated version of iot_server_v1, and contains:
 * minor bug fixes, and more clean up code for authentication and data handling,
 * it includes video streaming
+
+### - command to run the server
+* cd iot_server_v1
+> python3 main.py
+
+## > iot_server_v3
+This is the updated version of iot_server_v2, and contains:
+
+* it includes MQTT for communicating with devices
 
 ### - command to run the server
 * cd iot_server_v1

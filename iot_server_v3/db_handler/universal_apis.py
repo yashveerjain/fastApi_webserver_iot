@@ -40,7 +40,7 @@ def get_device(device_id: int,db : Session=Depends(get_db) ):
         raise HTTPException(status_code=400, detail="device not found")
     return db_device
 
-@router.put("/device/",response_model=schemas.Device)
+@router.put("/device",response_model=schemas.Device)
 def update_device_status(device_details: schemas.DeviceStatus,db : Session=Depends(get_db) ):
     from mqtt_routers import comm
     db_device = crud.get_device(db,device_details.id)
