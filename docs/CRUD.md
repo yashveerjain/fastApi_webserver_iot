@@ -30,6 +30,12 @@
 * POST request:
     - `/user` - create new user, post parameters are specified in `DATABASE_SCHEMA.md` in User section.
         - return type :  **Json** - User
+    - `/login` - for sign in as known user: 
+        - request content type - `application/x-www-form-urlencoded`
+            - in flutter : use [this](https://api.flutter.dev/flutter/dart-html/HttpRequest/postFormData.html) to login credentials
+        - return type - **Json**
+            - access_token : string token
+            - token_type : string = "Bearer"
 
 * Delete request:
     - `/user/{user_id}` - delete the particular user from DB

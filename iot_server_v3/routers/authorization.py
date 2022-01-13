@@ -17,7 +17,7 @@ from dependencies import get_db
 SECRET_KEY = "ae82c7d1bdef6f4eab178c4915c295f0217f5eff7c2b1d78f20ff0c7dcc8fdb1"
 ALGORITHM = "HS256"
 
-oauth2_schema = OAuth2PasswordBearer(tokenUrl="token")
+oauth2_schema = OAuth2PasswordBearer(tokenUrl="login")
 
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
@@ -84,7 +84,7 @@ class RoleChecker:
             raise HTTPException(status_code=403, detail="Operation not permitted")
 
     
-@router.post("/token")
+@router.post("/login")
 async def login_user(form_data: OAuth2PasswordRequestForm = Depends(),db : Session=Depends(get_db)):
     user = authenticate_user(form_data.username,form_data.password,db=db)
     if not user:
