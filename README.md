@@ -48,6 +48,8 @@ This is the updated version of iot_server_v1, and contains:
 This is the updated version of iot_server_v2, and contains:
 
 * it includes MQTT for communicating with devices
+* It includes websocket for updating device status to and from the frontent and send and receive from mqtt.
+* few additional improvements to make the code cleaner
 
 ### - command to run the server
 * cd iot_server_v1
