@@ -1,18 +1,21 @@
 import asyncio
 import signal
-from fastapi import APIRouter,Depends
-from fastapi.websockets import WebSocket
+from fastapi import APIRouter,Depends,HTTPException
 from fastapi.websockets import WebSocket
 import logging
-import json
+
 from sqlalchemy.orm import Session
-from starlette.endpoints import WebSocketEndpoint
 import sys
-import logging
 
+from dependencies import get_db
 from . import mqtt_handler
+from routers.authorization import verify_token
+from db_handler import crud
 
-router = APIRouter()
+router = APIRouter(
+    dependencies = [Depends(verify_token)]
+)
+
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -21,9 +24,8 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 @router.websocket("/device/status")
-async def update_device_status(websocket : WebSocket):
+async def update_device_status(websocket : WebSocket,db : Session = Depends(get_db)):
     await websocket.accept()
-    monitor_message = {"topic_name" : "","status" : ""}
     internal_queue = asyncio.queues.Queue()
     
     signal.signal(signal.SIGINT, signal_handler)
@@ -54,6 +56,11 @@ async def update_device_status(websocket : WebSocket):
             logging.debug(f"recieve element not sending : {elem_rec}")
             continue
         
+        db_device = crud.get_device_by_topic(db,recieve_status_data["topic_name"])
+        if not db_device:
+            raise HTTPException(status_code=400, detail="device not found")
+        
+        db_device = crud.update_device_status(db,device_topic_name=recieve_status_data["topic_name"],status=recieve_status_data["status"])
         logging.debug("Sending message")
         await websocket.send_json(recieve_status_data)
         logging.debug(f"send message {recieve_status_data}")            # 

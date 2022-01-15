@@ -32,7 +32,7 @@ class DeviceCreate(DeviceBase):
     pass
 
 class DeviceStatus(BaseModel):
-    id: int
+    topic_name: str
     status : bool
 
 class Device(DeviceBase):

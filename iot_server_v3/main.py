@@ -12,7 +12,7 @@ from typing import List
 from fastapi_mqtt import FastMQTT,MQTTConfig
 from fastapi import FastAPI,Depends,HTTPException
 import uvicorn
-import ast
+
 
 from db_handler import universal_apis,admin_apis
 from mqtt_routers import mqtt_handler
@@ -20,23 +20,19 @@ from routers import authorization,camera_feed
 from mqtt_routers import mqtt_router
 from internal import admin
 
-# import logging
+import logging
 
 # logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 # logging.warning('This will get logged to a file')
 
 
-app = FastAPI()
+app = FastAPI()    
 
-# @app.on_event("startup")
-# async def startup_event():
-    
-
-# app.include_router(universal_apis.router)
-# app.include_router(admin_apis.router)
-# app.include_router(authorization.router)
-# app.include_router(admin.router)
-# app.include_router(camera_feed.router)
+app.include_router(universal_apis.router)
+app.include_router(admin_apis.router)
+app.include_router(authorization.router)
+app.include_router(admin.router)
+app.include_router(camera_feed.router)
 app.include_router(mqtt_router.router)
 
 
@@ -91,14 +87,6 @@ def subscribe(client, mid, qos, properties):
 async def root():
     return {"message": "Hello Bigger Applications!"}
 
-
-# def test_websocket():
-#     client = TestClient(app)
-#     with client.websocket_connect("/device/status") as websocket:
-#         # while True:
-#         data = websocket.receive_json()
-#         print(data)
-#         # assert data == {"msg": "Hello WebSocket"}
 
 if __name__=="__main__":
     # print()    

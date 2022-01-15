@@ -47,8 +47,8 @@ def get_devices(db: Session):
 
 
 ##update
-def update_device_status(db: Session, device_id: int,status: bool):
-    db_device = db.query(models.Device).filter(models.Device.id==device_id).first()
+def update_device_status(db: Session, device_topic_name: int,status: bool):
+    db_device = db.query(models.Device).filter(models.Device.topic_name==device_topic_name).first()
     db_device.status = status
     db.commit()
     return db_device
