@@ -22,7 +22,7 @@ def on_message(ws, message):
     print("recieve message",message)
 
 def on_error(ws, error):
-    print(error)
+    print("error : ",error)
     # raise "error"
 
 def on_close(ws, close_status_code, close_msg):
@@ -31,11 +31,16 @@ def on_close(ws, close_status_code, close_msg):
 def on_open(ws):
     def run(*args):
         i=0
+        status = True
         while True:
             i+=1
-            time.sleep(1)
+            time.sleep(5)
             # ws.send("Hello %d" % i)
-            ws.send(json.dumps({"message" : i}))
+            ws.send(json.dumps({"topic_name" : f"room1/device{i}",
+                            "status" : not status}))
+            status = not status
+            if i>10:
+                break
         time.sleep(1)
         ws.close()
         print("thread terminating...")
@@ -43,16 +48,14 @@ def on_open(ws):
 
 if __name__ == "__main__":
     websocket.enableTrace(True)
-    ws = websocket.WebSocketApp("ws://localhost:8000/ws",
+    ws = websocket.WebSocketApp("ws://localhost:8000/device/status",
                               on_open=on_open,
                               on_message=on_message,
                               on_error=on_error,
                               on_close=on_close)
 
     
-    while True:
-        try:
-            ws.run_forever(ping_interval=2,ping_timeout=1)
-        except:
-            continue
-        
+    
+    ws.run_forever(ping_interval=2,ping_timeout=1)
+
+    

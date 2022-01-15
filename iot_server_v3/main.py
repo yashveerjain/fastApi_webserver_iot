@@ -5,32 +5,42 @@ ConnectionRefusedError: [Errno 111] Connection refused
 
 Then mosquitto broker is not running, please check mosquitto broker.
 """
+import json
+import logging
 from typing import List
 
+from fastapi_mqtt import FastMQTT,MQTTConfig
 from fastapi import FastAPI,Depends,HTTPException
 import uvicorn
+import ast
 
 from db_handler import universal_apis,admin_apis
+from mqtt_routers import mqtt_handler
 from routers import authorization,camera_feed
-# from mqtt_routers import comm
+from mqtt_routers import mqtt_router
 from internal import admin
-from fastapi_mqtt import FastMQTT,MQTTConfig
+
 # import logging
 
 # logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 # logging.warning('This will get logged to a file')
 
+
 app = FastAPI()
 
+# @app.on_event("startup")
+# async def startup_event():
+    
 
-app.include_router(universal_apis.router)
-app.include_router(admin_apis.router)
-app.include_router(authorization.router)
-app.include_router(admin.router)
-app.include_router(camera_feed.router)
+# app.include_router(universal_apis.router)
+# app.include_router(admin_apis.router)
+# app.include_router(authorization.router)
+# app.include_router(admin.router)
+# app.include_router(camera_feed.router)
+app.include_router(mqtt_router.router)
+
 
 ## reference : https://github.com/sabuhish/fastapi-mqtt/blob/master/docs/getting-started.md
-
 mqtt_config = MQTTConfig(
     username="home_automation_v1",
     password="yashveer",
@@ -55,11 +65,16 @@ def connect(client, flags, rc, properties):
     
     print("Connected: ", client, flags, rc, properties)
 
-## as i have subscribe to all the topics message will keep on display on terminal
-# @mqtt.on_message()
-# async def message(client, topic, payload, qos, properties):
-#     print("Received message: ",topic, payload.decode(), qos, properties)
-#     return 0
+# ## as i have subscribe to all the topics message will keep on display on terminal
+
+@mqtt.on_message()
+async def message(client, topic, payload, qos, properties):
+    ## payload will store value like on or off
+    payload= payload.decode() # give string format payload
+    logging.debug(f"payload : {payload} , type: {type(payload)}")
+    mqtt_handler.mqtt_handler.read_message(topic,payload)
+    return 0
+
 
 @mqtt.on_disconnect()
 def disconnect(client, packet, exc=None):
@@ -76,6 +91,15 @@ def subscribe(client, mid, qos, properties):
 async def root():
     return {"message": "Hello Bigger Applications!"}
 
+
+# def test_websocket():
+#     client = TestClient(app)
+#     with client.websocket_connect("/device/status") as websocket:
+#         # while True:
+#         data = websocket.receive_json()
+#         print(data)
+#         # assert data == {"msg": "Hello WebSocket"}
+
 if __name__=="__main__":
-    # print()
+    # print()    
     uvicorn.run("main:app",host="0.0.0.0")

@@ -53,6 +53,15 @@ def update_device_status(db: Session, device_id: int,status: bool):
     db.commit()
     return db_device
 
+##update
+def update_device(db: Session,device_id : int, device : schemas.DeviceBase):
+    db_device = db.query(models.Device).filter(models.Device.id==device_id).first()
+    db_device.topic_name=device.topic_name
+    db_device.gpio_pin = device.gpio_pin
+    db_device.name = device.name
+    db.commit()
+    return db_device
+
 ## delete 
 def delete_device(db: Session,device_id:int):
     device = db.query(models.Device).filter(models.Device.id==device_id).first()
