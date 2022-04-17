@@ -6,6 +6,7 @@ ConnectionRefusedError: [Errno 111] Connection refused
 Then mosquitto broker is not running, please check mosquitto broker.
 """
 import json
+import os
 import logging
 from typing import List
 
@@ -22,8 +23,20 @@ from internal import admin
 
 import logging
 
-# logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
-# logging.warning('This will get logged to a file')
+ACTIVITY = "MQTT ROUTER"
+LOGLEVEL = os.environ.get("LOGLEVEL", "DEBUG").upper()
+logfile = ACTIVITY.strip().replace(" ", "_")
+logger = logging.getLogger(logfile)
+
+from logging.handlers import RotatingFileHandler
+
+Rhandler = RotatingFileHandler(f"logs/{logfile}.log", maxBytes=5e8, backupCount=1)
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+Rhandler.setFormatter(formatter)
+logger.addHandler(Rhandler)
+logger.setLevel(LOGLEVEL)
+logging.info(f"Running {ACTIVITY}")
+
 
 
 app = FastAPI()    
@@ -59,7 +72,7 @@ def connect(client, flags, rc, properties):
     ## main server will subscribe to all the topics
     mqtt.client.subscribe(SUB_TOPIC,qos=2) #subscribing mqtt topic 
     
-    print("Connected: ", client, flags, rc, properties)
+    logger.debug(f"Connected: | {client}| {flags} | {rc} | {properties}")
 
 # ## as i have subscribe to all the topics message will keep on display on terminal
 
@@ -67,7 +80,7 @@ def connect(client, flags, rc, properties):
 async def message(client, topic, payload, qos, properties):
     ## payload will store value like on or off
     payload= payload.decode() # give string format payload
-    logging.debug(f"payload : {payload} , type: {type(payload)}")
+    logger.debug(f"payload : {payload} , type: {type(payload)}")
     mqtt_handler.mqtt_handler.read_message(topic,payload)
     return 0
 
@@ -75,12 +88,12 @@ async def message(client, topic, payload, qos, properties):
 @mqtt.on_disconnect()
 def disconnect(client, packet, exc=None):
     mqtt.publish("events","main server is disconnected",qos=2)
-    print("Disconnected")
+    logger.debug("Disconnected")
 
 @mqtt.on_subscribe()
 def subscribe(client, mid, qos, properties):
     mqtt.publish("events","main server is subscribed",qos=2)
-    print("subscribed", client, mid, qos, properties)
+    logger.debug(f"subscribed | {client} | {mid} |  {qos} | {properties}")
 
 
 @app.get("/")

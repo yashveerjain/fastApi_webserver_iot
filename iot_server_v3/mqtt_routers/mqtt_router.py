@@ -3,6 +3,7 @@ import signal
 from fastapi import APIRouter,Depends,HTTPException
 from fastapi.websockets import WebSocket
 import logging
+import os
 
 from sqlalchemy.orm import Session
 import sys
@@ -16,11 +17,23 @@ router = APIRouter(
     dependencies = [Depends(verify_token)]
 )
 
+ACTIVITY = "MQTT ROUTER"
+LOGLEVEL = os.environ.get("LOGLEVEL", "DEBUG").upper()
+logfile = ACTIVITY.strip().replace(" ", "_")
+logger = logging.getLogger(logfile)
 
-logging.basicConfig(level=logging.DEBUG)
+from logging.handlers import RotatingFileHandler
+
+Rhandler = RotatingFileHandler(f"logs/{logfile}.log", maxBytes=5e8, backupCount=1)
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+Rhandler.setFormatter(formatter)
+logger.addHandler(Rhandler)
+logger.setLevel(LOGLEVEL)
+logging.info(f"Running {ACTIVITY}")
+
 
 def signal_handler(sig, frame):
-    logging.info('You pressed Ctrl+C!')
+    logger.info('You pressed Ctrl+C!')
     sys.exit(0)
 
 @router.websocket("/device/status")
@@ -34,7 +47,7 @@ async def update_device_status(websocket : WebSocket,db : Session = Depends(get_
         from mqtt_routers import comm
         while True:
             data = await websocket.receive_json()
-            logging.debug(f"recived data : {data}")        
+            logger.debug(f"recived data : {data}")        
             topic = data["topic_name"]
             mess = data["status"]
             
@@ -53,17 +66,18 @@ async def update_device_status(websocket : WebSocket,db : Session = Depends(get_
         if not internal_queue.empty():
             ## to get the element which was recently recieved and published need not to be send again
             elem_rec = internal_queue.get_nowait()
-            logging.debug(f"recieve element not sending : {elem_rec}")
+            logger.debug(f"recieve element not sending : {elem_rec}")
             continue
         
         db_device = crud.get_device_by_topic(db,recieve_status_data["topic_name"])
         if not db_device:
+            logger.error(f"device not found | topic name {recieve_status_data['topic_name']}")
             raise HTTPException(status_code=400, detail="device not found")
         
         db_device = crud.update_device_status(db,device_topic_name=recieve_status_data["topic_name"],status=recieve_status_data["status"])
-        logging.debug("Sending message")
+        logger.debug("Sending message")
         await websocket.send_json(recieve_status_data)
-        logging.debug(f"send message {recieve_status_data}")            # 
+        logger.debug(f"send message {recieve_status_data}")            # 
     
 # @router.websocket_route("/device/status")
 # class update_device_status(WebSocketEndpoint):
