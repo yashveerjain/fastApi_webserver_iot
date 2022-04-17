@@ -41,7 +41,7 @@ This is the updated version of iot_server_v1, and contains:
 * it includes video streaming
 
 ### - command to run the server
-* cd iot_server_v1
+* cd iot_server_v2
 > python3 main.py
 
 ## > iot_server_v3
@@ -52,5 +52,15 @@ This is the updated version of iot_server_v2, and contains:
 * few additional improvements to make the code cleaner
 
 ### - command to run the server
-* cd iot_server_v1
+* cd iot_server_v3
+> python3 main.py
+
+## > iot_server_v4
+This is the updated version of iot_server_v4, and contains: (work in progress)
+
+* Fetching the device status using api polling instead of websocket
+* Working of SQLAlchemy integration
+
+### - command to run the server
+* cd iot_server_v4
 > python3 main.py

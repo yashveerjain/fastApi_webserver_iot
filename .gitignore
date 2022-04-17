@@ -1,3 +1,7 @@
 __pycache__/
 dockerfile
 /sql_app.db
+./
+iot_server_v1/ 
+iot_server_v2/
+iot_server_v3/
