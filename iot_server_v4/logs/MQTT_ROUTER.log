@@ -69,3 +69,1138 @@
 2022-04-17 23:08:08,170 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
 2022-04-17 23:08:08,170 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
 2022-04-17 23:08:08,170 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-21 17:31:41,503 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-21 17:33:41,093 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-21 17:34:20,984 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-21 17:34:21,467 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff54d6b60d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-21 17:34:21,467 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff54d6b60d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-21 17:34:21,467 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff54d6b60d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-21 17:34:21,467 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff54d6b60d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-21 17:34:21,470 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff54d6b60d0> | 2 |  (2,) | {}
+2022-04-21 17:34:21,470 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff54d6b60d0> | 2 |  (2,) | {}
+2022-04-21 17:34:21,470 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff54d6b60d0> | 2 |  (2,) | {}
+2022-04-21 17:34:21,470 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff54d6b60d0> | 2 |  (2,) | {}
+2022-04-21 17:34:21,471 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-21 17:34:21,471 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-21 17:34:21,471 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-21 17:34:21,471 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-21 17:34:21,472 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,472 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,472 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,472 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 17:34:21,474 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-21 18:21:40,593 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-21 20:17:16,473 - MQTT_ROUTER - INFO - Disconnected
+2022-04-21 20:17:16,473 - MQTT_ROUTER - INFO - Disconnected
+2022-04-21 20:17:16,473 - MQTT_ROUTER - INFO - Disconnected
+2022-04-21 20:17:16,473 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:14:10,417 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:15:14,987 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:15:20,894 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fefd0a90f40>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:15:20,894 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fefd0a90f40>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:15:20,894 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fefd0a90f40>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:15:20,894 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fefd0a90f40>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:15:20,899 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fefd0a90f40> | 2 |  (2,) | {}
+2022-04-22 01:15:20,899 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fefd0a90f40> | 2 |  (2,) | {}
+2022-04-22 01:15:20,899 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fefd0a90f40> | 2 |  (2,) | {}
+2022-04-22 01:15:20,899 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fefd0a90f40> | 2 |  (2,) | {}
+2022-04-22 01:15:20,904 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:15:20,904 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:15:20,904 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:15:20,904 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:15:20,906 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,906 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,906 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,906 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,950 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:15:20,950 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:15:20,950 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:15:20,950 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:15:20,951 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,951 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,951 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:15:20,951 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (False, 'events')
+2022-04-22 01:17:19,692 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:17:19,692 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:17:19,692 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:17:19,692 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:17:19,694 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-22 01:17:19,694 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-22 01:17:19,694 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-22 01:17:19,694 - MQTT_ROUTER - ERROR - 
+                    Command NOT Working
+                    UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1000')
+2022-04-22 01:17:52,006 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:17:52,006 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:17:52,006 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:17:52,006 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:19:31,246 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:19:31,511 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f0bbfe4be80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:31,511 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f0bbfe4be80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:31,511 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f0bbfe4be80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:31,511 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f0bbfe4be80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:31,514 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f0bbfe4be80> | 2 |  (2,) | {}
+2022-04-22 01:19:31,514 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f0bbfe4be80> | 2 |  (2,) | {}
+2022-04-22 01:19:31,514 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f0bbfe4be80> | 2 |  (2,) | {}
+2022-04-22 01:19:31,514 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f0bbfe4be80> | 2 |  (2,) | {}
+2022-04-22 01:19:31,515 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:31,515 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:31,515 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:31,515 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:31,787 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:31,787 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:31,787 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:31,787 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:44,831 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:19:44,831 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:19:44,831 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:19:44,831 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:19:45,834 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:19:46,086 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f63d8f00e80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:46,086 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f63d8f00e80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:46,086 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f63d8f00e80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:46,086 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f63d8f00e80>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:19:46,088 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f63d8f00e80> | 2 |  (2,) | {}
+2022-04-22 01:19:46,088 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f63d8f00e80> | 2 |  (2,) | {}
+2022-04-22 01:19:46,088 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f63d8f00e80> | 2 |  (2,) | {}
+2022-04-22 01:19:46,088 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f63d8f00e80> | 2 |  (2,) | {}
+2022-04-22 01:19:46,090 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:46,090 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:46,090 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:46,090 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:19:46,090 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,090 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,090 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,090 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,091 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:46,091 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:46,091 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:46,091 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:19:46,092 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,092 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,092 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:19:46,092 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'Depends' object has no attribute 'query'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 80
+
+2022-04-22 01:21:24,733 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:21:24,733 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:21:24,733 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:21:24,733 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:34:06,517 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:34:06,779 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f33a99be2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:06,779 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f33a99be2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:06,779 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f33a99be2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:06,779 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f33a99be2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:06,781 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f33a99be2e0> | 2 |  (2,) | {}
+2022-04-22 01:34:06,781 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f33a99be2e0> | 2 |  (2,) | {}
+2022-04-22 01:34:06,781 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f33a99be2e0> | 2 |  (2,) | {}
+2022-04-22 01:34:06,781 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f33a99be2e0> | 2 |  (2,) | {}
+2022-04-22 01:34:06,782 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:06,782 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:06,782 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:06,782 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:06,783 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,783 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,783 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,783 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,784 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:06,784 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:06,784 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:06,784 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:06,785 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,785 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,785 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:06,785 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'ValueError'>,
+Error          = parameters are of unsupported type
+Exception Type = <class 'ValueError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:13,815 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:34:13,815 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:34:13,815 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:34:13,815 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:34:30,608 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:34:30,857 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fc1395692e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:30,857 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fc1395692e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:30,857 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fc1395692e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:30,857 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fc1395692e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:34:30,859 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fc1395692e0> | 2 |  (2,) | {}
+2022-04-22 01:34:30,859 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fc1395692e0> | 2 |  (2,) | {}
+2022-04-22 01:34:30,859 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fc1395692e0> | 2 |  (2,) | {}
+2022-04-22 01:34:30,859 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fc1395692e0> | 2 |  (2,) | {}
+2022-04-22 01:34:30,861 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:30,861 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:30,861 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:30,861 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:34:30,862 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,862 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,862 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,862 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,863 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:30,863 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:30,863 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:30,863 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:34:30,863 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,863 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,863 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:34:30,863 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 67
+
+2022-04-22 01:36:38,826 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:36:38,826 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:36:38,826 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:36:38,826 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:36:39,858 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:36:40,106 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f8da02622e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:36:40,106 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f8da02622e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:36:40,106 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f8da02622e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:36:40,106 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f8da02622e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:36:40,108 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f8da02622e0> | 2 |  (2,) | {}
+2022-04-22 01:36:40,108 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f8da02622e0> | 2 |  (2,) | {}
+2022-04-22 01:36:40,108 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f8da02622e0> | 2 |  (2,) | {}
+2022-04-22 01:36:40,108 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f8da02622e0> | 2 |  (2,) | {}
+2022-04-22 01:36:40,110 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:36:40,110 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:36:40,110 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:36:40,110 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:36:40,111 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,111 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,111 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,111 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,112 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:36:40,112 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:36:40,112 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:36:40,112 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:36:40,112 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,112 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,112 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:36:40,112 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.ProgrammingError'>,
+Error          = Incorrect number of bindings supplied. The current statement uses 1, and there are 6 supplied.
+Exception Type = <class 'sqlite3.ProgrammingError'>
+File Name      = mqtt_handler.py
+Line Number    = 68
+
+2022-04-22 01:37:10,244 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:10,244 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:10,244 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:10,244 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:11,089 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:37:11,340 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f24636812e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:11,340 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f24636812e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:11,340 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f24636812e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:11,340 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f24636812e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:11,342 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f24636812e0> | 2 |  (2,) | {}
+2022-04-22 01:37:11,342 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f24636812e0> | 2 |  (2,) | {}
+2022-04-22 01:37:11,342 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f24636812e0> | 2 |  (2,) | {}
+2022-04-22 01:37:11,342 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f24636812e0> | 2 |  (2,) | {}
+2022-04-22 01:37:11,343 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:11,343 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:11,343 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:11,343 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:11,345 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:11,345 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:11,345 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:11,345 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:45,053 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:45,053 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:45,053 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:45,053 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:45,933 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:37:46,182 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f47f23b12e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:46,182 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f47f23b12e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:46,182 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f47f23b12e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:46,182 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f47f23b12e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:37:46,184 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f47f23b12e0> | 2 |  (2,) | {}
+2022-04-22 01:37:46,184 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f47f23b12e0> | 2 |  (2,) | {}
+2022-04-22 01:37:46,184 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f47f23b12e0> | 2 |  (2,) | {}
+2022-04-22 01:37:46,184 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f47f23b12e0> | 2 |  (2,) | {}
+2022-04-22 01:37:46,185 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:46,185 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:46,185 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:46,185 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:37:46,188 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:46,188 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:46,188 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:46,188 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:37:51,512 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:51,512 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:51,512 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:37:51,512 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:38:48,936 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:38:49,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fdb06ad32e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:38:49,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fdb06ad32e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:38:49,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fdb06ad32e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:38:49,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fdb06ad32e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:38:49,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fdb06ad32e0> | 2 |  (2,) | {}
+2022-04-22 01:38:49,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fdb06ad32e0> | 2 |  (2,) | {}
+2022-04-22 01:38:49,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fdb06ad32e0> | 2 |  (2,) | {}
+2022-04-22 01:38:49,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fdb06ad32e0> | 2 |  (2,) | {}
+2022-04-22 01:38:49,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:38:49,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:38:49,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:38:49,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:38:49,208 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:38:49,208 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:38:49,208 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:38:49,208 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:40:31,877 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:40:31,877 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:40:31,877 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:40:31,877 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:40:33,492 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:40:33,748 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f134eece2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:40:33,748 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f134eece2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:40:33,748 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f134eece2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:40:33,748 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f134eece2e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:40:33,750 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f134eece2e0> | 2 |  (2,) | {}
+2022-04-22 01:40:33,750 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f134eece2e0> | 2 |  (2,) | {}
+2022-04-22 01:40:33,750 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f134eece2e0> | 2 |  (2,) | {}
+2022-04-22 01:40:33,750 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f134eece2e0> | 2 |  (2,) | {}
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,752 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,753 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:40:33,753 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:40:33,753 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:40:33,753 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:40:33,754 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,754 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,754 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:40:33,754 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:51,450 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:45:51,450 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:45:51,450 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:45:51,450 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:45:58,435 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:45:58,686 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f59ff8042e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:45:58,686 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f59ff8042e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:45:58,686 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f59ff8042e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:45:58,686 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f59ff8042e0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:45:58,688 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f59ff8042e0> | 2 |  (2,) | {}
+2022-04-22 01:45:58,688 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f59ff8042e0> | 2 |  (2,) | {}
+2022-04-22 01:45:58,688 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f59ff8042e0> | 2 |  (2,) | {}
+2022-04-22 01:45:58,688 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f59ff8042e0> | 2 |  (2,) | {}
+2022-04-22 01:45:58,690 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:45:58,690 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:45:58,690 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:45:58,690 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:45:58,691 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,691 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,691 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,691 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,692 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:45:58,692 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:45:58,692 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:45:58,692 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:45:58,693 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,693 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,693 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:45:58,693 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:05,832 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:05,832 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:05,832 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:05,832 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:13,934 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:47:13,934 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:47:14,197 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6922716400>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:14,197 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6922716400>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:14,197 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6922716400>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:14,197 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6922716400>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:14,197 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6922716400>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:14,198 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6922716400> | 2 |  (2,) | {}
+2022-04-22 01:47:14,198 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6922716400> | 2 |  (2,) | {}
+2022-04-22 01:47:14,198 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6922716400> | 2 |  (2,) | {}
+2022-04-22 01:47:14,198 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6922716400> | 2 |  (2,) | {}
+2022-04-22 01:47:14,198 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6922716400> | 2 |  (2,) | {}
+2022-04-22 01:47:14,200 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:14,200 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:14,200 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:14,200 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:14,200 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:14,201 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,201 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,201 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,201 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,201 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:14,202 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:19,815 - MQTT_ROUTER - INFO - fetching user : None
+2022-04-22 01:47:19,815 - MQTT_ROUTER - INFO - fetching user : None
+2022-04-22 01:47:19,815 - MQTT_ROUTER - INFO - fetching user : None
+2022-04-22 01:47:19,815 - MQTT_ROUTER - INFO - fetching user : None
+2022-04-22 01:47:19,815 - MQTT_ROUTER - INFO - fetching user : None
+2022-04-22 01:47:56,748 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:56,748 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:56,748 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:56,748 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:56,748 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:47:57,752 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:47:57,752 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:47:58,008 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6a5a3ea3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:58,008 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6a5a3ea3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:58,008 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6a5a3ea3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:58,008 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6a5a3ea3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:58,008 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f6a5a3ea3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:47:58,010 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6a5a3ea3d0> | 2 |  (2,) | {}
+2022-04-22 01:47:58,010 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6a5a3ea3d0> | 2 |  (2,) | {}
+2022-04-22 01:47:58,010 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6a5a3ea3d0> | 2 |  (2,) | {}
+2022-04-22 01:47:58,010 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6a5a3ea3d0> | 2 |  (2,) | {}
+2022-04-22 01:47:58,010 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f6a5a3ea3d0> | 2 |  (2,) | {}
+2022-04-22 01:47:58,012 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:58,012 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:58,012 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:58,012 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:58,012 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:47:58,013 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,013 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,013 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,013 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,013 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,014 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:58,014 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:58,014 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:58,014 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:58,014 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:47:58,015 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,015 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,015 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,015 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:47:58,015 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:48:01,486 - MQTT_ROUTER - INFO - fetching user : Admin | admin
+2022-04-22 01:48:01,486 - MQTT_ROUTER - INFO - fetching user : Admin | admin
+2022-04-22 01:48:01,486 - MQTT_ROUTER - INFO - fetching user : Admin | admin
+2022-04-22 01:48:01,486 - MQTT_ROUTER - INFO - fetching user : Admin | admin
+2022-04-22 01:48:01,486 - MQTT_ROUTER - INFO - fetching user : Admin | admin
+2022-04-22 01:48:01,493 - MQTT_ROUTER - INFO - user : None
+2022-04-22 01:48:01,493 - MQTT_ROUTER - INFO - user : None
+2022-04-22 01:48:01,493 - MQTT_ROUTER - INFO - user : None
+2022-04-22 01:48:01,493 - MQTT_ROUTER - INFO - user : None
+2022-04-22 01:48:01,493 - MQTT_ROUTER - INFO - user : None
+2022-04-22 01:48:27,813 - MQTT_ROUTER - INFO - fetching user : admin@homeauto.com | admin
+2022-04-22 01:48:27,813 - MQTT_ROUTER - INFO - fetching user : admin@homeauto.com | admin
+2022-04-22 01:48:27,813 - MQTT_ROUTER - INFO - fetching user : admin@homeauto.com | admin
+2022-04-22 01:48:27,813 - MQTT_ROUTER - INFO - fetching user : admin@homeauto.com | admin
+2022-04-22 01:48:27,813 - MQTT_ROUTER - INFO - fetching user : admin@homeauto.com | admin
+2022-04-22 01:48:27,815 - MQTT_ROUTER - INFO - user : <db_handler.models.User object at 0x7f6a58306820>
+2022-04-22 01:48:27,815 - MQTT_ROUTER - INFO - user : <db_handler.models.User object at 0x7f6a58306820>
+2022-04-22 01:48:27,815 - MQTT_ROUTER - INFO - user : <db_handler.models.User object at 0x7f6a58306820>
+2022-04-22 01:48:27,815 - MQTT_ROUTER - INFO - user : <db_handler.models.User object at 0x7f6a58306820>
+2022-04-22 01:48:27,815 - MQTT_ROUTER - INFO - user : <db_handler.models.User object at 0x7f6a58306820>
+2022-04-22 01:49:35,083 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:49:35,083 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:49:35,083 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:49:35,083 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:49:35,083 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:49:35,084 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:49:35,084 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:49:35,084 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:49:35,084 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:49:35,084 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:20,504 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:20,504 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:20,504 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:20,504 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:20,504 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:20,506 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:20,506 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:20,506 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:20,506 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:20,506 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 69
+
+2022-04-22 01:50:21,941 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:50:21,941 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:50:21,941 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:50:21,941 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:50:21,941 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:50:22,951 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:50:22,951 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:50:23,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f1fb6c1d3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:50:23,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f1fb6c1d3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:50:23,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f1fb6c1d3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:50:23,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f1fb6c1d3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:50:23,201 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f1fb6c1d3d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:50:23,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f1fb6c1d3d0> | 2 |  (2,) | {}
+2022-04-22 01:50:23,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f1fb6c1d3d0> | 2 |  (2,) | {}
+2022-04-22 01:50:23,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f1fb6c1d3d0> | 2 |  (2,) | {}
+2022-04-22 01:50:23,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f1fb6c1d3d0> | 2 |  (2,) | {}
+2022-04-22 01:50:23,203 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f1fb6c1d3d0> | 2 |  (2,) | {}
+2022-04-22 01:50:23,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:50:23,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:50:23,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:50:23,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:50:23,205 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:50:23,206 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:50:23,207 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,207 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,207 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,207 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:23,207 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:50:26,128 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:26,128 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:26,128 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:26,128 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:26,128 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:50:26,129 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'int' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:50:26,129 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'int' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:50:26,129 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'int' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:50:26,129 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'int' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:50:26,129 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'int' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:05,971 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:05,971 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:05,971 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:05,971 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:05,971 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:07,150 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:51:07,150 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:51:07,400 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff7249b53d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:07,400 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff7249b53d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:07,400 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff7249b53d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:07,400 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff7249b53d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:07,400 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7ff7249b53d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:07,402 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff7249b53d0> | 2 |  (2,) | {}
+2022-04-22 01:51:07,402 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff7249b53d0> | 2 |  (2,) | {}
+2022-04-22 01:51:07,402 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff7249b53d0> | 2 |  (2,) | {}
+2022-04-22 01:51:07,402 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff7249b53d0> | 2 |  (2,) | {}
+2022-04-22 01:51:07,402 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7ff7249b53d0> | 2 |  (2,) | {}
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,404 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,405 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:07,405 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:07,405 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:07,405 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:07,405 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:07,406 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,406 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,406 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,406 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:07,406 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:12,127 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:12,127 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:12,127 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:12,127 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:12,127 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:12,128 - MQTT_ROUTER - INFO - previous details of device | (1,)
+2022-04-22 01:51:12,128 - MQTT_ROUTER - INFO - previous details of device | (1,)
+2022-04-22 01:51:12,128 - MQTT_ROUTER - INFO - previous details of device | (1,)
+2022-04-22 01:51:12,128 - MQTT_ROUTER - INFO - previous details of device | (1,)
+2022-04-22 01:51:12,128 - MQTT_ROUTER - INFO - previous details of device | (1,)
+2022-04-22 01:51:12,130 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:12,130 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:12,130 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:12,130 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:12,130 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:32,308 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:32,308 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:32,308 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:32,308 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:32,308 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:51:33,393 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:51:33,393 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:51:33,645 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f669e0c13d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:33,645 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f669e0c13d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:33,645 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f669e0c13d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:33,645 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f669e0c13d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:33,645 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f669e0c13d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:51:33,646 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f669e0c13d0> | 2 |  (2,) | {}
+2022-04-22 01:51:33,646 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f669e0c13d0> | 2 |  (2,) | {}
+2022-04-22 01:51:33,646 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f669e0c13d0> | 2 |  (2,) | {}
+2022-04-22 01:51:33,646 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f669e0c13d0> | 2 |  (2,) | {}
+2022-04-22 01:51:33,646 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f669e0c13d0> | 2 |  (2,) | {}
+2022-04-22 01:51:33,648 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:33,648 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:33,648 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:33,648 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:33,648 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:51:33,649 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,649 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,649 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,649 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,649 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:33,650 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:51:36,357 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:36,357 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:36,357 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:36,357 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:36,357 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:51:36,361 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:51:36,361 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:51:36,361 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:51:36,361 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:51:36,361 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:51:36,363 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:36,363 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:36,363 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:36,363 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:51:36,363 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'AttributeError'>,
+Error          = 'tuple' object has no attribute 'status'
+Exception Type = <class 'AttributeError'>
+File Name      = mqtt_handler.py
+Line Number    = 70
+
+2022-04-22 01:54:09,504 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:09,504 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:09,504 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:09,504 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:09,504 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:10,386 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:54:10,386 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:54:10,640 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f76fd9413d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:10,640 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f76fd9413d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:10,640 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f76fd9413d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:10,640 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f76fd9413d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:10,640 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7f76fd9413d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:10,643 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f76fd9413d0> | 2 |  (2,) | {}
+2022-04-22 01:54:10,643 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f76fd9413d0> | 2 |  (2,) | {}
+2022-04-22 01:54:10,643 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f76fd9413d0> | 2 |  (2,) | {}
+2022-04-22 01:54:10,643 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f76fd9413d0> | 2 |  (2,) | {}
+2022-04-22 01:54:10,643 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7f76fd9413d0> | 2 |  (2,) | {}
+2022-04-22 01:54:10,644 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:10,644 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:10,644 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:10,644 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:10,644 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:10,646 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:10,647 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,647 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,647 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,647 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:10,647 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:11,942 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:54:11,942 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:54:11,942 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:54:11,942 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:54:11,942 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:54:11,946 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:54:11,946 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:54:11,946 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:54:11,946 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:54:11,946 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:54:11,946 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.OperationalError'>,
+Error          = near "RETURNING": syntax error
+Exception Type = <class 'sqlite3.OperationalError'>
+File Name      = mqtt_handler.py
+Line Number    = 74
+
+2022-04-22 01:54:11,946 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.OperationalError'>,
+Error          = near "RETURNING": syntax error
+Exception Type = <class 'sqlite3.OperationalError'>
+File Name      = mqtt_handler.py
+Line Number    = 74
+
+2022-04-22 01:54:11,946 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.OperationalError'>,
+Error          = near "RETURNING": syntax error
+Exception Type = <class 'sqlite3.OperationalError'>
+File Name      = mqtt_handler.py
+Line Number    = 74
+
+2022-04-22 01:54:11,946 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.OperationalError'>,
+Error          = near "RETURNING": syntax error
+Exception Type = <class 'sqlite3.OperationalError'>
+File Name      = mqtt_handler.py
+Line Number    = 74
+
+2022-04-22 01:54:11,946 - MQTT_ROUTER - ERROR - 
+Error Type     = <class 'sqlite3.OperationalError'>,
+Error          = near "RETURNING": syntax error
+Exception Type = <class 'sqlite3.OperationalError'>
+File Name      = mqtt_handler.py
+Line Number    = 74
+
+2022-04-22 01:54:57,742 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:57,742 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:57,742 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:57,742 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:57,742 - MQTT_ROUTER - INFO - Disconnected
+2022-04-22 01:54:58,964 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:54:58,964 - MQTT_ROUTER - INFO - connected to ./sql_app.db
+2022-04-22 01:54:59,213 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fea548013d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:59,213 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fea548013d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:59,213 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fea548013d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:59,213 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fea548013d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:59,213 - MQTT_ROUTER - INFO - Connected: | <gmqtt.client.Client object at 0x7fea548013d0>| 0 | 0 | {'topic_alias_maximum': [10]}
+2022-04-22 01:54:59,214 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fea548013d0> | 2 |  (2,) | {}
+2022-04-22 01:54:59,214 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fea548013d0> | 2 |  (2,) | {}
+2022-04-22 01:54:59,214 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fea548013d0> | 2 |  (2,) | {}
+2022-04-22 01:54:59,214 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fea548013d0> | 2 |  (2,) | {}
+2022-04-22 01:54:59,214 - MQTT_ROUTER - INFO - subscribed | <gmqtt.client.Client object at 0x7fea548013d0> | 2 |  (2,) | {}
+2022-04-22 01:54:59,216 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:59,216 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:59,216 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:59,216 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:59,216 - MQTT_ROUTER - INFO - payload : main server is connected , type: <class 'str'>
+2022-04-22 01:54:59,217 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,217 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,217 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,217 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,217 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - payload : main server is subscribed , type: <class 'str'>
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:54:59,218 - MQTT_ROUTER - INFO - not topic is present in DB | {'topic_name': 'events', 'status': False}
+2022-04-22 01:55:00,744 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:55:00,744 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:55:00,744 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:55:00,744 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:55:00,744 - MQTT_ROUTER - INFO - payload : on , type: <class 'str'>
+2022-04-22 01:55:00,748 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:55:00,748 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:55:00,748 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:55:00,748 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:55:00,748 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 0, 0, None)
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1')
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1')
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1')
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1')
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (True, 'room1/device1')
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:00,826 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:00,827 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to True
+2022-04-22 01:55:00,827 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to True
+2022-04-22 01:55:00,827 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to True
+2022-04-22 01:55:00,827 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to True
+2022-04-22 01:55:00,827 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to True
+2022-04-22 01:55:59,659 - MQTT_ROUTER - INFO - payload : false , type: <class 'str'>
+2022-04-22 01:55:59,659 - MQTT_ROUTER - INFO - payload : false , type: <class 'str'>
+2022-04-22 01:55:59,659 - MQTT_ROUTER - INFO - payload : false , type: <class 'str'>
+2022-04-22 01:55:59,659 - MQTT_ROUTER - INFO - payload : false , type: <class 'str'>
+2022-04-22 01:55:59,659 - MQTT_ROUTER - INFO - payload : false , type: <class 'str'>
+2022-04-22 01:55:59,660 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 1, 0, None)
+2022-04-22 01:55:59,660 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 1, 0, None)
+2022-04-22 01:55:59,660 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 1, 0, None)
+2022-04-22 01:55:59,660 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 1, 0, None)
+2022-04-22 01:55:59,660 - MQTT_ROUTER - INFO - previous details of device | (1, 'device1', 'room1/device1', 1, 0, None)
+2022-04-22 01:55:59,779 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'room1/device1')
+2022-04-22 01:55:59,779 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'room1/device1')
+2022-04-22 01:55:59,779 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'room1/device1')
+2022-04-22 01:55:59,779 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'room1/device1')
+2022-04-22 01:55:59,779 - MQTT_ROUTER - INFO - UPDATE device SET status=? WHERE topic_name=?, (False, 'room1/device1')
+2022-04-22 01:55:59,780 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:59,780 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:59,780 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:59,780 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:59,780 - MQTT_ROUTER - INFO - publish
+2022-04-22 01:55:59,781 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to False
+2022-04-22 01:55:59,781 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to False
+2022-04-22 01:55:59,781 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to False
+2022-04-22 01:55:59,781 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to False
+2022-04-22 01:55:59,781 - MQTT_ROUTER - INFO - topic name room1/device1 | status updated to False

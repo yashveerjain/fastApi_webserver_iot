@@ -19,7 +19,6 @@ from db_handler import universal_apis,admin_apis
 from mqtt_routers import mqtt_handler
 from routers import authorization,camera_feed
 from mqtt_routers import mqtt_router
-from internal import admin
 
 import logging
 
@@ -44,7 +43,6 @@ app = FastAPI()
 app.include_router(universal_apis.router)
 app.include_router(admin_apis.router)
 app.include_router(authorization.router)
-app.include_router(admin.router)
 # app.include_router(camera_feed.router)
 app.include_router(mqtt_router.router)
 

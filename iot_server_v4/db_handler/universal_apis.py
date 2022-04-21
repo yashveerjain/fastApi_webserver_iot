@@ -39,7 +39,7 @@ def get_device(device_id: int,db : Session=Depends(get_db) ):
     return db_device
         
 @router.put("/device/{device_id}",response_model=schemas.Device)
-def update_device(device_details: schemas.DeviceBase, device_id : int,db : Session=Depends(get_db) ):
+def update_device(device_details: schemas.DeviceBase, device_id : int,db : Session=Depends(get_db)):
 
     db_device = crud.get_device(db,device_id)
     if not db_device:

@@ -1,6 +1,9 @@
 # print('__file__={0:<35} | __name__={1:<25} | __package__={2:<25}'.format(__file__,__name__,str(__package__)))
+from asyncio.log import logger
 from datetime import datetime, timedelta
 from typing import Optional
+import os
+import logging
 
 from sqlalchemy.orm.session import Session
 from fastapi import APIRouter,Depends, HTTPException, status
@@ -8,9 +11,26 @@ from fastapi.security import OAuth2PasswordRequestForm,OAuth2PasswordBearer
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 
-
 from db_handler import crud,schemas
 from dependencies import get_db
+
+from utils import logging_utils
+
+
+ACTIVITY = "MQTT ROUTER"
+LOGLEVEL = os.environ.get("LOGLEVEL", "DEBUG").upper()
+logfile = ACTIVITY.strip().replace(" ", "_")
+logger = logging.getLogger(logfile)
+
+from logging.handlers import RotatingFileHandler
+
+Rhandler = RotatingFileHandler(f"logs/{logfile}.log", maxBytes=1e8, backupCount=1)
+formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+Rhandler.setFormatter(formatter)
+logger.addHandler(Rhandler)
+logger.setLevel(LOGLEVEL)
+logging.info(f"Running {ACTIVITY}")
+
 
 ###Basic security
 
@@ -66,7 +86,9 @@ def get_current_active_user(email : str =Depends(verify_token),db: Session=Depen
 
 def authenticate_user(email:str,password : str,db : Session):
     # print(db)
+    logger.info(f"fetching user : {email}")
     user = crud.get_user_by_email(db,email)
+    logger.info(f"user : {user}")
     if not user:
         return False
     else:

@@ -24,6 +24,7 @@ several communication protocols have been implemented like RestAPI.
 
 ### - command to run the server
 * cd iot_server_v1
+> service mosquitto start
 > python3 main.py
 
 ### - notes on iot_server_v1
@@ -42,6 +43,7 @@ This is the updated version of iot_server_v1, and contains:
 
 ### - command to run the server
 * cd iot_server_v2
+> service mosquitto start
 > python3 main.py
 
 ## > iot_server_v3
@@ -53,6 +55,7 @@ This is the updated version of iot_server_v2, and contains:
 
 ### - command to run the server
 * cd iot_server_v3
+> service mosquitto start
 > python3 main.py
 
 ## > iot_server_v4
@@ -63,4 +66,5 @@ This is the updated version of iot_server_v4, and contains: (work in progress)
 
 ### - command to run the server
 * cd iot_server_v4
+> service mosquitto start
 > python3 main.py
